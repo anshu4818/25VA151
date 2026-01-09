@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.front-page{
+    width: 100%;
+    height: 100vh;
+    background-image: url(project1-image/front.png);
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    height: 100px;
+    color: white;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    font-family: caveat;
+    font-size: 25px;
+    
+}
+.section2{
+    display: flex;
+    gap: 15px;
+    align-items:center ;
+}
+.section3{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.order{
+    background-color: orange;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.hover:hover{
+    cursor: pointer;
+    color: orange;
+}
+.hover-button:hover{
+    cursor: pointer;
+    background-color: darkorange;
+}
+.order-product-page{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    color: white;
+}
+.order-product-page .fast-food1{
+    font-family: caveat;
+    font-size: 35px;
+    align-items: center;
+}
+.hover1{
+   margin-top: 50px;
+  margin-left: 60px;
+}

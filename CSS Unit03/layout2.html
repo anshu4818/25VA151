@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+
+        }
+        html,*{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        } 
+        #layout{
+            width: 800px;
+            height: 1000px;
+            margin: auto;
+            border: 2px solid black;
+            display: grid;
+        }
+        #layout > header{
+            grid-area: header;
+            height: 100px;
+            background-color: lightblue;
+            border: 2px solid black;
+            text-align: center;
+            line-height: 100px;
+            font-size: 24px;
+        }
+        #layout > nav{
+            grid-area: nav;
+            height: 50px;
+            background-color: lightgreen;
+            border: 2px solid black;
+            text-align: center;
+            line-height: 50px;
+            font-size: 24px;
+        }
+        
+       
+
+
+      
+          
+        
+    </style>
+</head>
+<body>
+    <div id="layout">
+    <header >
+        Header
+    </header>
+    <nav >
+        Navigation
+    </nav>
+    <main >
+       <div id="container1 ">
+        <div id="pagetitle"></div>
+        <div id="content1"></div>
+        <div id="content2">
+            <div id="content3"></div>
+            <div id="content4"></div>
+        </div>
+       </div>
+       <div id="container2">
+        <div id="navlocal"></div>
+        <div id="sidebar"></div>
+       </div>
+
+    </main>
+    <footer >
+        Footer
+    </footer> 
+    </div>  
+    
+</body>
+</html>

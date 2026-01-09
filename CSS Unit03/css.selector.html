@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selector</title>
+</head>
+<style> 
+<div p{
+    color: rgb(181, 153, 115);
+}
+.box> p{
+    background-color: rgb(31, 182, 132);
+}
+  
+  a:hover{
+    color: rgb(216, 179, 130);
+    font-size: 60px;
+
+  }
+  a:active{
+    color: rgb(79, 103, 125);
+  }
+  a:link{
+    text-decoration: none; font size: 40px;
+  }
+  ul {
+    list-style: none; display: flex;
+
+  }
+  ul li{
+    margin:20px; border-right: 10px solid color(srgb red green blue);
+  padding-right: 20px;
+  }
+  ul li:hover{
+    color: rgb(61, 61, 150);
+  }
+ul li:nth-child(5){
+    border-right: 0px;
+}
+  .para{
+    color: #42bdbd;
+  }
+  .para::first-letter  {
+    color: rgb(169, 215, 215);font-size: large;
+  }
+.para::first-line{
+
+    background-color:rgb(105, 72, 72);
+.para::after{
+content: "read more";
+color: rgb(150, 86, 86);font-size: 20px;
+}
+</style>
+<body>
+    <!--css abbreviation-->
+
+<div class="box" >
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat sed, ratione quod minima quam deserunt aspernatur laboriosam tenetur alias laborum beatae tempora molestias odio asperiores, numquam voluptatibus, nulla exercitationem assumenda?
+
+</p>
+<div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque rerum odit corrupti. Cumque iusto exercitationem maxime esse excepturi. Nihil dignissimos, quibusdam quas ex reprehenderit eveniet ipsa ab rerum molestias culpa!
+  
+    </p>
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae animi, ipsa fugiat laborum totam accusamus ducimus temporibus odio aut? Perspiciatis quibusdam hic doloribus corporis impedit! Sed veniam sequi excepturi ea.
+     
+        </p>
+</div>
+<!--css pseudo : style for a special state of an element-->
+<a href= "">visit this link></a>
+<ul>
+    <li>home</li>
+    <li>services</li>
+    <li>about</li>
+    <li>rating</li>
+    <li>contact</li>
+    </ul>
+    <!--css pseudo-elments:style a specific part of an element-->
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum blanditiis error, tenetur culpa architecto soluta itaque in molestias. Fuga harum doloremque laborum tempora molestias quia ullam necessitatibus iure ipsam minus!
+    </p>
+</body>
+
+</html>
